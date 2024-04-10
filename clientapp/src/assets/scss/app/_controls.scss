@@ -1,0 +1,55 @@
+.q-toolbar__title{
+    font-size: 0.95rem;
+  }
+  
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.4s ease;
+  }
+  
+  .fade-enter-from,
+  .fade-leave-to {
+    opacity: 0;
+  }
+
+.sub-toolbar{
+    font-size: 0.86em;
+    font-weight: bold;
+}
+
+.q-item__label{
+    .main-item{
+        font-size: 0.85em;
+    }
+}
+
+.text-h7{
+  font-size: 0.82em;
+}
+
+.text-h6{
+  font-size: 1em;
+}
+
+.doc-card-title {
+  margin-left: -28px;
+  padding: 4px 8px 4px 28px;
+  position: relative;
+  border-radius: 3px 5px 5px 0;
+  background: #D8E1E5;
+  color: #757575;
+  font-size: 18px;
+  letter-spacing: .7px;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-width: 9px 0 0 11px;
+    border-top-color: #b0c2ca;
+  }
+}

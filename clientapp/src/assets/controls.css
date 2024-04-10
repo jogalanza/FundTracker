@@ -1,0 +1,7 @@
+.q-btn__content{
+    span{
+        &.block{
+            margin-right: 8px;
+        }
+    }
+}

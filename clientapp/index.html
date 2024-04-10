@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FundGo</title>
+    <link href="/fonts/karla/index.css" rel="stylesheet" />
+    <link href="/fonts/gotham/index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <style>
+      html {
+        font-family: gotham_roundedbook, Archivo, Montserrat !important;
+        overflow: hidden !important;
+      }
+
+      body {
+        font-family: 'gotham_roundedbook', 'Archivo', 'Montserrat', 'Roboto', '-apple-system',
+          'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        overflow: hidden;
+      }
+
+      ::-webkit-scrollbar {
+        width: 00px;
+        /* Remove scrollbar space ebe3e3 */
+        background: transparent;
+        /* Optional: just make scrollbar invisible */
+        margin-top: 50px;
+        height: 0px;
+      }
+
+      /* Optional: show position indicator in red */
+      ::-webkit-scrollbar-thumb {
+        /* background: #5b9bd5;
+          background: #ccc; 
+          background: #847f7f; */
+        /* background: rgba(12, 110, 221, 0.5); */
+        background: rgba(0, 0, 0, 0.2);
+        height: 0px;
+        width: 0px;
+        border-radius: 8px;
+      }
+
+      ::-webkit-input-placeholder {
+        color: peachpuff;
+        font-size: 13px;
+      }
+
+      ::-moz-placeholder {
+        color: peachpuff;
+        font-size: 13px;
+      }
+
+      :-ms-input-placeholder {
+        color: peachpuff;
+        font-size: 13px;
+      }
+
+      ::placeholder {
+        color: peachpuff;
+        font-size: 13px;
+      }
+
+      /* Chrome, Safari, Edge, Opera */
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      /* Firefox */
+      input[type='number'] {
+        -moz-appearance: textfield;
+      }
+
+      textarea {
+        resize: none !important;
+      }
+
+      .bg-green-etc {
+        background: #64a70b !important;
+      }
+
+      sup {
+        font-size: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

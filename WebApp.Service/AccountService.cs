@@ -41,9 +41,20 @@ namespace WebApp.Service
         {
             var updateEmployee =
             await _dbService.EditData(
-                "Update public.employee SET name=@Name, age=@Age, address=@Address, mobile_number=@MobileNumber WHERE id=@Id",
+                "UPDATE public.employee SET name=@Name, age=@Age, address=@Address, mobile_number=@MobileNumber WHERE id=@Id",
                 employee);
             return employee;
         }
+
+        public async Task<Account> Login(Account employee)
+        {
+            var updateEmployee =
+            await _dbService.EditData(
+                "SELECT * FROM public.Accounts WHERE Email=@Email AND Key=@Key",
+                employee);
+            return employee;
+        }
+
+
     }
 }
